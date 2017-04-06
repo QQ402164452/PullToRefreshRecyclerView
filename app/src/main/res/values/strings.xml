@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PullToRefreshRecyclerView</string>
+
+    <string name="PullToRefresh_Header_Hint_Release">释放刷新</string>
+    <string name="PullToRefresh_Header_Hint_Normal">下拉刷新</string>
+    <string name="PullToRefresh_Header_Hint_Refreshing">正在刷新</string>
+    <string name="PullToRefresh_Header_Hint_Complete">刷新完成</string>
+
+    <string name="LoadingMore_Footer_Hint_Loading">正在加载</string>
+    <string name="LoadingMore_Footer_Hint_Complete">加载完成</string>
+    <string name="LoadingMore_Footer_Hint_NoMore">暂无更多</string>
+</resources>

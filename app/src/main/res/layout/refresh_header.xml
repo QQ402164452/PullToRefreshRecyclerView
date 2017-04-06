@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/PullToRefresh_Header_HintTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            tools:text="Pull To Refresh"
+            android:text="@string/PullToRefresh_Header_Hint_Normal"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"/>
+
+        <ImageView
+            android:id="@+id/PullToRefresh_Header_ArrowImageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_pulltorefresh_arrow"
+            android:layout_toStartOf="@id/PullToRefresh_Header_HintTextView"/>
+
+        <ProgressBar
+            android:id="@+id/PullToRefresh_Header_ProgressBar"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:layout_toStartOf="@id/PullToRefresh_Header_HintTextView"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
